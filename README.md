@@ -17,3 +17,6 @@ Run
 ```console
 streamlit run 1_🏠_Home_Page.py
 ```
+
+## Link
+You can access this web applications [here](https://nurulfitrife-streamlit-visualize-flight-cos-1--home-page-q6kond.streamlit.app/).
