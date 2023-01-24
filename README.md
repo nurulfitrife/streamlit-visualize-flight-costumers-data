@@ -19,5 +19,5 @@ streamlit run 1_🏠_Home_Page.py
 ```
 
 ## Link
-You can access this web applications [here](https://nurulfitrife-streamlit-visualize-flight-cos-1--home-page-q6kond.streamlit.app/).
-Please use with full view window and and set zoom to 80% to get a better experience.
+You can access the web applications [here](https://nurulfitrife-streamlit-visualize-flight-cos-1--home-page-q6kond.streamlit.app/).
+Please use with full view window and set zoom to 80% to get a better experience.
