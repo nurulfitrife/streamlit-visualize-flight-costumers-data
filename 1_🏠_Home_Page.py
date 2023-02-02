@@ -51,9 +51,5 @@ with col2:
 
 
 st.write("")
-st.subheader('III. Data Source')
+st.subheader('III. Data Reference')
 st.markdown('flight-data: https://www.programmersought.com/article/48113472881/')
-col1, col2, col3 = st.columns([1,2,1])
-with col2:
-    img = Image.open('data/metadata.png')
-    st.image(img, caption='Metadata Flight Data')
