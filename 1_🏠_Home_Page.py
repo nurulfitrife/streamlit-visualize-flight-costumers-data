@@ -30,7 +30,7 @@ st.sidebar.info(
     )
 
 st.title("Flight Customers Analysis")
-st.write("----------------------------------------------------------------------------------------------")
+st.write("-----------------------------------------------------------------------------------------------")
 
 st.subheader('I. Introduction')
 st.markdown('<div style="text-align:justify;">Pada era Big Data saat ini, banyak perusahaan yang menerapkan data driven yang mana perusahaan melibatkan data untuk melihat tren bisnis, memaksimalkan pemasaran, menganalisis penjualan produk perusahaan, hingga menjadi faktor untuk mengambil keputusan bisnis. Semua keputusan dan proses data driven tersebut dapat dianalisis dari data. Salah satu perusahaan yang dapat menerapkan data driven, yaitu perusahaan penerbangan. Dengan mengetahui analisis karakteristik dari customer data, suatu perusahaan penerbangan dapat mendapatkan insight untuk merencanakan marketing strategy, dan juga dapat memaksimalkan pemasaran ataupun memberikan perlakuan khusus bagi karakteristik tertentu. Pada kesempatan ini akan dilakukan analisis data serta clustering untuk mengetahui segmentasi customers menggunakan Unsupervised Machine Learning.</div>', unsafe_allow_html=True)
