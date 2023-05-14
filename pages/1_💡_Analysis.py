@@ -14,8 +14,9 @@ with col2:
 st.write("--------------------------------------------------------------------------------------------")
 
 #Buka File
-with open("data/16-flight-EDA.pickle",'rb') as f:
-    data = pickle.load(f)
+# with open("data/16-flight-EDA.pickle",'rb') as f:
+#     data = pickle.load(f)
+data = pd.read_csv("./data/16-flight-EDA.csv")
 
 #Input tanggal
 min_date = data['FIRST_FLIGHT_DATE_2'].min()
