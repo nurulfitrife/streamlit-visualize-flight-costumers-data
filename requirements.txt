@@ -1,6 +1,6 @@
 streamlit
 matplotlib
-scikit-learn
+scikit-image
 numpy
 pandas
 streamlit-option-menu
