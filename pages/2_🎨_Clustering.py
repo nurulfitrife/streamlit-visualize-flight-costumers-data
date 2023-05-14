@@ -43,8 +43,9 @@ st.text("-----------------------------------------------------------------------
 
 
 #Buka File
-with open("data/16-flight-EDA.pickle",'rb') as f:
-    data = pickle.load(f)
+# with open("data/16-flight-EDA.pickle",'rb') as f:
+#     data = pickle.load(f)
+data = pd.read_csv("./data/16-flight-EDA.csv")
 
 data_sel = data[['MEMBERSHIP','LAST_TO_END','FLIGHT_COUNT','SEG_KM_SUM','avg_discount']]
 
