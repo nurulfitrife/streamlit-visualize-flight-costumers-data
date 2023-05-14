@@ -179,7 +179,7 @@ with col2:
     features = ['AGE','LAST_TO_END','FLIGHT_COUNT','SEG_KM_SUM','avg_discount','EXCHANGE_COUNT','Points_Sum','Point_NotFlight','AVG_INTERVAL']
     for i in range(0, len(features)):
         plt.subplot(3, len(features)//2-1, i+1)
-        fg = sns.distplot(x=outputs[features[i]], color=color[i], kde=True)
+        fg = sns.histplot(x=outputs[features[i]], color=color[i], kde=True)
         fg.set_title(features[i] + ' Distribution')
         plt.xlabel(features[i])
     plt.tight_layout()
