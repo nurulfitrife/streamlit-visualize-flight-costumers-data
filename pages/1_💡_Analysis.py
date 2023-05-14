@@ -17,6 +17,7 @@ st.write("----------------------------------------------------------------------
 # with open("data/16-flight-EDA.pickle",'rb') as f:
 #     data = pickle.load(f)
 data = pd.read_csv("./data/16-flight-EDA.csv")
+data['FIRST_FLIGHT_DATE_2'] = pd.to_datetime(data['FIRST_FLIGHT_DATE_2'], utc=False)
 
 #Input tanggal
 min_date = data['FIRST_FLIGHT_DATE_2'].min()
@@ -26,7 +27,8 @@ start_date, end_date = st.sidebar.date_input(label='Tanggal Penerbangan Pertama'
                                             max_value=max_date,
                                             value=[min_date, max_date])
 
-
+start_date = pd.to_datetime(start_date)
+end_date = pd.to_datetime(end_date)
 
 st.markdown(
     """
